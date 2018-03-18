@@ -25,7 +25,7 @@ SECRET_KEY = '&nqow^x1tmyxn7u@s4@)@=p^&6c&x8gzr5cs0q2wf4@0z0$-_9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.murat.ga', '165.227.174.143']
 
 
 # Application definition
