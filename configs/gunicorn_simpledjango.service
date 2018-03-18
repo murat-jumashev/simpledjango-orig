@@ -1,4 +1,4 @@
-        [Unit]
+[Unit]
 Description=gunicorn daemon for simpledjango project
 Requires=gunicorn_simpledjango.socket
 After=network.target
