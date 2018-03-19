@@ -9,7 +9,7 @@ User=murat
 Group=www-data
 RuntimeDirectory=gunicorn
 Environment=SECRET_KEY='&nqow^x1tmyxn7u@s4@)@=p^&6c&x8gzr5cs0q2wf4@0z0$-_9'
-WorkingDirectory=/home/murat/simpledjango/mysite
+WorkingDirectory=/home/murat/simpledjango
 ExecStart=/home/murat/simpledjango/env/bin/gunicorn \
           --access-logfile /home/murat/simpledjango/logs/access.log \
           --error-logfile /home/murat/simpledjango/logs/error.log \
