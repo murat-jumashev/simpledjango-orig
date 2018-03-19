@@ -16,7 +16,7 @@ ExecStart=/home/murat/simpledjango/env/bin/gunicorn \
           --pid /run/gunicorn/pid   \
           --env DJANGO_SETTINGS_MODULE=mysite.settings_prod \
           --workers 3 \
-          --bind unix:/run/gunicorn/simpledjango_socket mysite.wsgi
+          --bind unix:/run/gunicorn/simpledjango_socket mysite.wsgi:application
 ExecReload=/bin/kill -s HUP $MAINPID
 ExecStop=/bin/kill -s TERM $MAINPID
 PrivateTmp=true
